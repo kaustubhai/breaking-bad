@@ -8,7 +8,7 @@ const grid = ({isloading, result}) => {
     <Spinner/>
     : 
     <section className="cards">
-        <h1>{result.map((item, key) => <Item key={item.char_id} items={item}/>)}</h1>
+        {result.map((item, key) => <Item key={item.char_id} items={item}/>)}
     </section>
     
 }

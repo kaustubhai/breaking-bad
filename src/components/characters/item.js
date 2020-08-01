@@ -1,8 +1,9 @@
 import React from 'react'
 
-const item = ( { items } ) => {
+
+const Items = ({ items }) => {
     return (
-        <div className='card'>
+      <div className='card'>
         <div className='card-inner'>
           <div className='card-front'>
             <img src={items.img} alt='' />
@@ -27,6 +28,6 @@ const item = ( { items } ) => {
         </div>
       </div>
     )
-}
-
-export default item
+  }
+  
+export default Items
