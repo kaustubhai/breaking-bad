@@ -4,7 +4,7 @@ import LOGO from '../../img/logo.png';
 const Header = () => {
     return (
         <header className="center">
-            <img src={LOGO} className="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""/>
+            <img src={LOGO} alt=""/>
         </header>
     )
 }
